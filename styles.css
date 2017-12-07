@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.images{
+    width: 660px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+    overflow: hidden;
+    /* float: left;    */
+   
+}
+.image{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.newimages{
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid green;
+    display: inline-block;
+    float: left;
+}
+.image1{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+.rightimages{
+    border: 1px solid brown;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+}
+.image2{
+ width: 200px;
+ height: 200px;   
+ margin: 10px;
+ display: block;
+}
+
+.hov:hover{
+    transform: scale(1.05);
+    transition: all 0.25s ease-in;
+    transition: all 0.50s ease-out;
+    opacity: 0.6;
+}
+
+.outerdiv{
+    border: 1px solid red;
+    position: relative;
+    display: inline-block;
+}
+
+.outerdiv:hover .inp{
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 40%;
+    top: 50%;
+    font-family: "Roboto",sans-serif;
+    color: white;
+    text-decoration: None;
+    font-size: 25px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 2px ;
+    padding: 6px;
+    /* background-color: darkgoldenrod; */
+    transition: all 1s ease-in;
+    /* opacity: 0.6; */
+    
+}
+
+.outerdiv:hover .myimage{
+opacity: 0.8;
+transition: all 0.50s ease-out;
+transition: all 0.50s ease-in;
+
+}
+
+.myimage{
+    width: 300px;
+    height: 300px;
+    /* opacity: 0.8 */
+}
+.inp{
+position: absolute;
+/* border: 1px solid red; */
+left: 40%;
+top: 50%;
+font-family: "Roboto",sans-serif;
+color: white;
+text-decoration: None;
+font-size: 25px;
+display: none;
+}
